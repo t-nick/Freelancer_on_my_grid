@@ -154,3 +154,110 @@ max-width: 970px;
 .colum i{
 	padding-left: 10px;
 }
+
+/*portfolio*/
+
+.portfolio{
+	width: 90%;
+max-width: 970px;
+	margin:40px auto;
+}
+.point{
+	display: none;
+	margin-bottom: 40px;
+	color: #fa5c65;
+	font-size: 40px;
+	text-align: center;
+}
+.port{
+	text-transform: uppercase;
+	color: #465065;
+	font-size: 26px;
+	font-family: "Montserrat";
+	font-weight: bold;
+}
+.port span{
+	color: #fa5c65;
+}
+.img img{
+	width: 100%;
+}
+.part{
+	padding: 6% 0 0 2%;
+	box-sizing: border-box;
+	max-width: 380px;
+}
+.part a{
+	color: #fa5c65;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-top: 15px;
+}
+.part i{
+	padding-left: 10px;
+}
+
+/*team*/
+
+.team{
+	width: 90%;
+max-width: 970px;
+	margin:40px auto;
+}
+.our{
+	text-transform: uppercase;
+	color: #465065;
+	font-size: 26px;
+	font-family: "Montserrat";
+	font-weight: bold;
+}
+.our span{
+	color: #fa5c65;
+}
+.our p{
+	font-family: "Open Sans";
+	color: #9aa0ab;
+	font-size: 15px;
+	text-transform: none;
+}
+
+.person{
+	max-width: 300px;
+	box-sizing: border-box;
+	padding-right: 2%;
+	margin-top: 30px;
+}
+
+
+.empl p:first-child{
+	text-transform: uppercase;
+	color: #465065;
+	font-size: 22px;
+	font-family: "Montserrat";
+	font-weight: bold;
+}
+
+.foto{
+	float: left;
+	margin-right: 20px;
+	height: 119px;
+	width: 119px;
+}
+.foto:after{
+clear: both;
+}
+.job{
+	color: #fa5c65;
+	font-size: 14px;
+	padding: 10px 0 10px 0;
+}
+.empl p:last-child{
+	font-size: 14px;
+}
+
+
+/*footer*/
+.line{
+	height: 1px;
+	background-color: #e6eaed;
+}
