@@ -164,9 +164,10 @@ max-width: 970px;
 }
 .point{
 	display: none;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	color: #fa5c65;
 	font-size: 40px;
+	line-height: 20px;
 	text-align: center;
 }
 .port{
@@ -179,7 +180,7 @@ max-width: 970px;
 .port span{
 	color: #fa5c65;
 }
-.img img{
+.pimg img{
 	width: 100%;
 }
 .part{
@@ -252,7 +253,7 @@ clear: both;
 	padding: 10px 0 10px 0;
 }
 .empl p:last-child{
-	font-size: 14px;
+	font-size: 13px;
 }
 
 
@@ -260,4 +261,28 @@ clear: both;
 .line{
 	height: 1px;
 	background-color: #e6eaed;
+	margin:30px 0 30px 0;
+}
+
+.soc{
+	float: left;
+	box-sizing: border-box;
+}
+.soc:after{
+	content: "";
+	clear: both;
+}
+.soc a{
+	color: #b9c0c6;
+	font-size: 20px;
+	padding-right: 10px;
+}
+.soc a:hover{
+	color: #fa5c65;
+}
+.copy{
+	text-align: right;
+	margin: 0 0 30px 0;
+	box-sizing: border-box;
+	padding-top: 15px;
 }

@@ -20,9 +20,17 @@
 .work{
 	margin-top: 0 auto;
 }
+
+header{
+	width: 100%;
+background: url("../img/900baner.jpg") no-repeat;
+background-position: top right;
+height: 900px;
 }
-
-
+.title{
+	margin-top: 335px;
+}
+}
 
 @media screen and (max-width: 768px){
 	
@@ -113,7 +121,14 @@
 .col-11, 
 .col-12 {width: 100%;}
 
-.peace{
+
+.title {
+	text-shadow: 2px 2px #fff;
+}
+.peace,
+.port,
+.our
+{
 	font-size: 22px;
 }
 .logomob{
@@ -141,10 +156,12 @@
 .col-11, 
 .col-12 {width: 100%;}
 
-.img{
+.pimg{
 	display: none;
 }
-
+.soc, .copy{
+	text-align: center;
+}
 }
 
 
