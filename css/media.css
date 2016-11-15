@@ -1,0 +1,148 @@
+@media screen and (max-width: 900px){
+
+
+
+
+.col-1,
+.col-2,
+.col-3 {width: 25%;}
+.col-4,
+.col-5,
+.col-6, 
+.col-7 {width: 50%;} 
+.col-8, 
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+.work{
+	margin-top: 0 auto;
+}
+}
+
+
+
+@media screen and (max-width: 768px){
+	
+	.col-1,
+.col-2,
+.col-3 {width: 100%;}
+.col-4,
+.col-5,
+.col-6, 
+.col-7 {width: 50%;} 
+.col-8, 
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+	.title{
+		font-size: 42px;
+	}
+	
+	.menu{
+		display: none;
+	}
+	
+	.mobmenu {
+		display: initial;
+		position: fixed;
+		top:10px;
+		right:10px;
+	}
+
+	.dropbtn {
+        background-color: transparent;
+    color: #fa5c65;
+    padding: 5px;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: tra;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(255,255,255,0.5);
+    min-width: 260px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        text-align: center;
+        top:60px;
+    right: 53px;
+    border-radius: 4px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+}
+
+@media screen and (max-width: 600px){
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10, 
+.col-11, 
+.col-12 {width: 100%;}
+
+.peace{
+	font-size: 22px;
+}
+.logomob{
+	position: fixed;
+	top: -10px;
+	left: 0;
+}
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 320px){
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10, 
+.col-11, 
+.col-12 {width: 100%;}
+
+
+}

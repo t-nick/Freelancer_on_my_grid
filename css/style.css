@@ -74,6 +74,10 @@ margin: 0 auto;
 	font-size: 15px;
 
 }
+
+.mobmenu{
+	display: none;
+}
 .menu i{
 	color: #fa5c65;
 	font-size: 16px;
@@ -121,10 +125,11 @@ color: #fa5c65;
 .work{
 	width: 90%;
 max-width: 970px;
-	margin:80px auto;
+	margin:40px auto;
 }
 .colum{
 	padding-right: 5.3%;
+	margin-top: 40px;
 }
 .colum p{
 	margin-bottom: 20px;
