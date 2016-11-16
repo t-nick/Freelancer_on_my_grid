@@ -28,7 +28,8 @@ background-position: top right;
 height: 900px;
 }
 .title{
-	margin-top: 335px;
+	margin-top: 450px;
+
 }
 }
 
@@ -61,11 +62,15 @@ height: 900px;
 		top:10px;
 		right:10px;
 	}
-
+.logofix{
+	position: fixed;
+	top: -18px;
+	left: 0;
+}
 	.dropbtn {
         background-color: transparent;
     color: #fa5c65;
-    padding: 5px;
+    padding: 5px 15px 5px 5px;
     font-size: 30px;
     border: none;
     cursor: pointer;
@@ -123,7 +128,9 @@ height: 900px;
 
 
 .title {
+	margin-top:450px 
 	text-shadow: 2px 2px #fff;
+	color: #17232b;
 }
 .peace,
 .port,
@@ -131,11 +138,7 @@ height: 900px;
 {
 	font-size: 22px;
 }
-.logomob{
-	position: fixed;
-	top: -10px;
-	left: 0;
-}
+
 .point{
 	display: initial;
 }
@@ -156,12 +159,27 @@ height: 900px;
 .col-11, 
 .col-12 {width: 100%;}
 
+
+header{
+	background: url("../img/banermob.jpg") no-repeat;
+	background-position: top right;
+}
+
+.title{
+	margin-top:450px;
+	font-size: 40px;
+}
 .pimg{
 	display: none;
 }
 .soc, .copy{
 	text-align: center;
 }
+.title button{
+	height: 58px;
+width: 155px;
+}
+
 }
 
 

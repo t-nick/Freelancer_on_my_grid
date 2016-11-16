@@ -43,9 +43,11 @@ box-sizing: border-box;
 header{
 	width: 100%;
 background: url("../img/banerlarg.jpg") no-repeat;
-
+background-position: top right;
 height: 1056px;
 max-width: 1370px;
+
+	margin:0 auto;
 }
 nav{
 width: 90%;
@@ -62,7 +64,8 @@ margin: 0 auto;
 	margin-top: 25px;
 	
 }
-.www ul li a{
+.www ul li a,
+.mobmenu a{
 	text-transform: uppercase;
 	text-decoration: none;
 	color: #424c53;
@@ -78,7 +81,8 @@ margin: 0 auto;
 .mobmenu{
 	display: none;
 }
-.menu i{
+.menu i,
+.dropdown-content i{
 	color: #fa5c65;
 	font-size: 16px;
 }
@@ -258,6 +262,12 @@ clear: both;
 
 
 /*footer*/
+
+footer{
+	width: 90%;
+max-width: 970px;
+	margin:0 auto;
+}
 .line{
 	height: 1px;
 	background-color: #e6eaed;
